@@ -366,13 +366,11 @@ if($section==='borrow' && $action==='return'){
 
 
 ?>
-=======
->>>>>>> 077b5e820bd1f606e4e29738cd082e64dd908778
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library System</title>
 </head>
@@ -849,7 +847,7 @@ if($section==='borrow' && $action==='return'){
 <?php endif; ?>
 
 </html>
-=======
+
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
