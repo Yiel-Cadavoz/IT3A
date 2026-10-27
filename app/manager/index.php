@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 //Database Connection
@@ -859,4 +858,4 @@ if($section==='borrow' && $action==='return'){
     <a href="../auth/signout.php">Sign Out</a>
 </body>
 </html>
->>>>>>> 077b5e820bd1f606e4e29738cd082e64dd908778
+
