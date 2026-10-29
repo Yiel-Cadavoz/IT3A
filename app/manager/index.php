@@ -12,10 +12,11 @@
 </html>
 
 <?php
+require_once '../../config/config.php';
 
 //Database Connection
 $host = 'localhost';
-$db = 'library_db';
+$db = 'it3a_lab_db';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -33,9 +34,6 @@ try{
 }catch(PDOException $e){
     die("Database connection failed" . $e->getMessage());
 }
-
-// Session
-session_start();
 
 // Determine current section
 $section = $_GET['section'] ??'students';
